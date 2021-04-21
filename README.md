@@ -1,13 +1,12 @@
 # GroceryStore
 The code does not provide UI. To add/update/display etc please use a service like Postman; 
-In the real application the API database methods should be made async; The test project is not finalized - I ran out of time, but it provides a good idea/direction 
+In the real application the API database methods should be made async; The test project is not finalized - I ran out of time, but it provides a good idea/direction. 
 
 
-Run:
-- to add GetAllCustomers run: 
+- to Get all customers run: 
 http://(server)/api/customers/getallcustomers
 
--to Get a specific Customer:
+- to Get a specific Customer run:
 http://(server)/api/customers/getCustomerById/2
 
 - to Add customer (POST customer json object) to
